@@ -7,7 +7,6 @@ function greet() {
         return;
     }
     
-
     var ageOfUser = parseInt(prompt('How old are you?'))
     var birthDay = confirm('Have you had your birthday yet?')
 
