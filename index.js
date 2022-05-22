@@ -11,13 +11,10 @@ function greet() {
     console.log(typeof birthDay)
 
     var birthDate = new Date()
-    // console.log(birthDate.getFullYear())
 
     var yesBirth = birthDate.getFullYear() - ageOfUser
-    // console.log(Boolean(yesBirth))
     
     var noBirth = birthDate.getFullYear() - ageOfUser + 1
-    // console.log(!noBirth)
 
     if (birthDay === false) {
         alert("Your birthday has NOT passed, you were born " + noBirth)
